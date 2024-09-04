@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+  <style>
+
+    .header2 a{
+      padding-left: 50px;
+      text-decoration: none; 
+    }
+    
+    .header-left span{
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 100%;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+          
+    }   
+@media (min-width:992px) {
+    
+    .banner
+    {
+        position: absolute;
+        left: 100px;
+        z-index: 1;
+        padding-left: 33px;
+        top: 50px;
+        
+    }
+    .banner img{
+        width: 120px;
+    }
+}
+@media (max-width:991px) {
+    .banner
+    {
+        position: absolute;
+        left: 10px;
+        z-index: 1;
+        padding-left: 33px;
+        top: 100px;
+    }
+    .banner img{
+        width: 80px;
+    }
+  
+}
+
+
+@media (max-width:400px) {
+    .banner
+    {
+        position: absolute;
+        left: 10px;
+        z-index: 1;
+        padding-left: 33px;
+        top: 120px;
+    }
+
+    
+}
+@media (max-width:1003){
+    .carousel-item img{
+    height: 50vh;
+    }
+}
+
+@media (max-width:670){
+    .carousel-item img{
+    width: 100%;
+    height:50vh ;
+    }
+    
+}
+
+    .content-7{
+        background-image: url(https://payalkapoor.co.in/wp-content/uploads/2020/06/bg1-home2.jpg);
+       
+    }
+    .content-1 h1{
+        color: #fff;
+        font-size:400%;
+        text-align: center;
+        padding-top: 310px;
+    }
+    .content-2 h1{
+        color: #fff;
+        font-size:400%;
+        text-align: center;
+        padding-top: 310px;
+    }
+    @media (min-width:992px) {
+        .abc{
+        padding-left: 180px;
+        
+    }
+        
+    }
+
+    .abc img{
+        width: 95%;
+        /* height: 50vh; */
+        padding-top: 70px;
+    }
+    .abc h6 {
+        padding-top: 20px;
+        color:#fff; 
+    }
+    @media (min-width:992px) {
+        .abc-2{
+        padding-left: 180px;
+        padding-right: 180px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+        
+    }
+    
+    .abc-3 h1{
+        padding-top: 70px;
+    }
+    .abc-3 h3{
+        color: #fff;
+         /* padding-left: 100px; */
+        padding-top: 10px;     
+        /* text-align: center;
+        justify-content: center; */
+    }
+    .abc-4 .card-img-overlay{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.265);
+            display: none;
+           
+     
+    } 
+    .abc-4 .card:hover .card-img-overlay{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .abc-4 i {
+        width: 80px;
+        height: 80px;
+        background: black;
+        color: white;
+        font-size: 30px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .abc-5 h1{
+        text-align: center;
+        color: #fff;
+        padding-top: 100px;
+        /* font-size: 70px; */
+    }
+    .abc-5 h4{
+        color: #fff;
+    }
+    
+    .abc-5 img{
+         width: 140px;
+         height: 140px;
+         text-align: center;
+    }
+    .abc-6 p{
+        font-size: 26px;
+    }
+   
+
+</style>
+
+<body>
+
+    <!-- This is section-1 start from here -->
+
+       <header class="d-lg-flex  justify-content-around py-3" style=" background-color:#B68D40">
+        <div class="header-left d-flex  align-items-center justify-content-center text-center"> 
+        <span class="fab fa-facebook   text-black" ></span>
+        <span class="fab fa-linkedin   text-black"></span>
+        <span class="fab fa-instagram  text-black"></span>
+</div>
+<div class="header-center d-flex align-items-center justify-content-center">
+    <span class="fas fa-map-marker-alt pe-2 text-white "></span>
+    <span class="text-white">Safdarjang Enclave, Near NDMA Building Trauma Centre</span>
+
+</div>
+<div class="header-right d-flex align-items-center justify-content-center">
+    <span class="fas fa-envelope-open pe-2 text-white text-center"></span>
+    <span class="text-white">Payal.vision@gmail.com</span>
+
+</div>
+     </header>
+
+     <!-- This is section-1 end from here -->
+
+
+     <!-- This is section-2 start from here -->
+
+        <div class="container-fluid header2" style="background-color: black;">
+        <div class="row text-center align-items-center" style="height: 8vh;">
+            <div class="col-2">
+                <div class="banner">
+                <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/1111.png" alt="" >
+                </div>
+            </div>
+            <div class="col-10 d-none d-xl-block"> 
+                <a href="" class="text-white">HOME</a>
+                <a href="" class="text-white">ABOUT US</a>
+                <a href="" class="text-white dropdown-toggle" data-bs-toggle="dropdown">WORK</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li class="dropdown-item">Clients</li>
+                    <li class="dropdown-item">Project</li>
+                    <li class="dropdown-item">On Going Projects</li>
+                </ul>
+                <a href="" class="text-white dropdown-toggle" data-bs-toggle="dropdown">MEDIA</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li class="dropdown-item">Awards</li>
+                    <li class="dropdown-item">Appreciation</li>
+                    <li class="dropdown-item">Press</li>
+                    <li class="dropdown-item">Book</li>
+
+                </ul>
+                <a href="" class="text-white">VISUALISATION</a>
+                <a href="" class="text-white dropdown-toggle" data-bs-toggle="dropdown">SERVICES</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li class="dropdown-item">Best Interior Designers in Delhi</li>
+                    <li class="dropdown-item">Office Interior Design</li>
+                    <li class="dropdown-item">Showrooms Interior Design</li>
+                    <li class="dropdown-item">Restaurant & Hotels Interior Design </li>
+                    <li class="dropdown-item">Residence Interior Design</li>
+                    <li class="dropdown-item">Institutes Interior Design</li>
+                    <li class="dropdown-item">Salon & SPA Interior Design</li>
+            
+                </ul>
+                <a href="" class="text-white">BLOG</a>
+                <a href="" class="text-white">CONTACT US</a>
+                </div>
+ 
+            
+        </div>
+    </div>  
+
+      <!-- This is section-2 end from here -->
+
+
+      <!-- This is section-3 start from here -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/b1.jpg" class="d-block w-100" alt="" style="height: 90vh;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="padding-bottom: 250px; font-size: 7vh;">Luxurious Hotels</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/Residences-Carousal.jpg" class="d-block w-100" alt="" style="height: 90vh;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="padding-bottom: 250px; font-size: 7vh;">The Best Designs, In The News.</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/2-1-1.jpg" class="d-block w-100" alt="" style="height: 90vh;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="padding-bottom: 250px; font-size: 7vh;">Palace On Wheels</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/G.d-goenka_exp2-150x150-2.jpg" class="d-block w-100" alt="" style="height: 90vh;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="padding-bottom: 250px; font-size: 7vh;">GD. Goenka Public School</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/ITC-Savoy-Mussorie.jpeg" class="d-block w-100" alt="" style="height: 90vh;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="padding-bottom: 250px; font-size: 7vh;">ITC Savoy</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+       <!-- This is section-3 end from here -->
+
+
+       <!-- This is section-4 start from here -->
+       <div class="container-fluid py-5" style="background-color: black;">
+            <div class="row">
+                <div class="col-lg-6 abc">
+                    
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/WhatsApp-Image-2021-02-22-at-2.36.53-PM.jpeg" alt="">
+                
+                    <h6>ABOUT</h6>
+                    <div class="border border-white border-3 w-25 mt-5"></div>
+            
+                <div class="text-dark text-white">As an Interior Designer in Delhi <b>Payal Kapoor</b> says <i>"After putting my <br>efforts, I felt that my creativity and identity as an Interior Designer was <br>being encroached upon. Hence, I decided to launch my own in 1991 and <br>launched my own design firm by the name of "Visions". Thus, began the process<br>of institutionalization of her Design Genius."</i></div>
+                </div>
+
+                <div class="col-lg-6 abc-1" >
+                    <span class="text-white">VISION PAYAL KAPOOR</span>
+                    <h1 class="text-white">Interior Designer in Delhi</h1>
+                    <div class="border border-white border-3 w-25 mt-5"></div>
+                    <span class="text-white" >After graduation from the Interiors School in 1987, the Executive Director of Manasara, one of the leading Interior Designer in Delhi, India  country, handpicked her.<br>
+                        After getting sufficient exposure at Manasara, she was offered a challenging opportunity by the promoters of "Dream City" and was appointed by them as senior advisor of their design firm "Craftsmen". The projects by this firm were mostly executed on turnkey basis. The factory consisted of advance machines e.g. Seasoning Plant, Band Saw Machines, Tensioning Machines, Circular Dimension Saw, Plainer, Moulding Machine, Hydraulic Press, Lathe Machine, Drill Machine, Surface Thicknesses and Lamination Press Machine.<br>
+                        Under her Supervision the company diversified from making panel doors and windows to excellent quality Furniture and executed a number of Projects on Turnkey Basis.</span>
+                </div>
+            
+            </div>
+            
+            
+        
+        </div> 
+
+        <!-- This is section-4 end from here -->
+
+
+        <!-- This is section-5 start from here -->
+
+          <div class="container-fluid abc-2 p-5" data-aos="fade-up" style="background-color: #fff;">
+            <span>We have one of the best interior designers in new delhi, named <b>Mrs. Payal Kapoor</b> she is top interior designers in delhi, India’s top interior designers, famous interior designers, best interior designers in delhi, famous interior designers in delhi, top interior designers in ncr, best interior decorators in new delhi, top interior decorators in delhi, India’s top interior decorators.
+
+                <i>Vision Payal Kapoor will fulfil all your interior designing requirements famous interior decorators, best interior decorators in delhi, famous interior decorators in delhi, top interior decorators in ncr, best interior designer in new delhi, top interior designer in delhi, india’s top interior designer, famous interior designer, best interior designer in delhi, <b>Mrs. Payal Kapoor having 30+ years of experienced in interior designing industry,</b> As she is very famous interior designer in delhi, top interior designer in ncr, best interior designers in south delhi,</i> top interior designers in south delhi, India’s top interior designers, famous interior designers, best interior designers in south delhi.
+                
+                <u>Payal Kapoor is very reputed interior designers in south delhi,</u> top interior designers in ncr, best interior decorators in new south delhi, She is top interior decorators in south delhi, India’s top interior decorators, famous interior decorators, best interior decorators in south delhi, famous interior decorators in south delhi, top interior decorators in ncr, best interior designer in new south delhi, top interior designer in south delhi, India’s top interior designer, famous interior designer, best interior designer in south delhi, famous interior designer in south delhi, top interior designer in ncr. <b>If you want to know more contact us and get the information about vision Payal Kapoor</b>.</span>
+
+         </div>
+
+        <!-- This is section-5 end from here -->
+       
+
+         <!-- This is section-6 start from here -->
+
+           <div class="container-fluid abc-3 " data-aos="fade-up" style="background-color: black;">
+            <h1 class="text-center text-white">Industries We Work With</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5 pt-5" data-aos="fade-down-left">
+                    <div class="card text-center" style="background: none;">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/112.jpg" alt="">
+                    
+                <h3>Hotel</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5 pt-5" data-aos="fade-down-right">
+                    <div class="card text-center" style="background: none;">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/12.jpg" alt="">
+                    
+                <h3>Institutes</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5 pt-5" data-aos="fade-down-left">
+                    <div class="card text-center" style="background: none;">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/service.jpg" alt="">
+                <h3>Mall</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5 pt-5" data-aos="fade-down-right">
+                    <div class="card text-center" style="background: none;">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/showroom.jpg" alt="">
+                <h3>Showrooms</h3>
+                    </div>    
+                </div>
+            </div>
+        </div> 
+
+         <!-- This is section-6 end from here -->
+
+
+         <!-- This is section-7 start from here -->
+
+           <div class="container-fluid content-7 abc-4">
+            <p class="text-center text-white pt-5">[ AWARDS ]<p>
+                <h1 class="text-center text-white">Recognition</h1>
+                <p class="text-center text-white">....................</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/5.jpeg" alt="photo-1">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/2.jpeg" alt="photo-2">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/3.jpeg" alt="photo-3">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/6.jpeg" alt="photo-4">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/4.jpeg" alt="photo-5">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/7.jpeg" alt="photo-6">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/12-3.jpg" alt="photo-7">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/18.gif" alt="photo-8">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/13-1.jpg" alt="photo-9">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/14.jpg" alt="photo-10">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/15-1.jpg" alt="photo-11">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/8-1.jpg" alt="photo-12">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/9-1.jpg" alt="photo-13">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/10-1.jpg" alt="photo-14">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/11-1.jpg" alt="photo-15">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/16-1.jpg" alt="photo-16">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4 pb-5">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/17-1.jpg" alt="photo-17">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4 pb-5">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/19-1.jpg" alt="photo-18">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4 pb-5">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/03/88.jpg" alt="photo-19">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-4 pb-5">
+                    <div class="card">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2023/02/Payal-Kapoor-Certificate-2048x1561.jpg" alt="photo-20">
+                    <div class="card-img-overlay text-dark text-center">
+                        <i class="far fa-plus"></i>
+                    </div>
+                   </div>  
+                </div>   
+            </div>
+          </div>
+
+          <!-- This is section-7 end from here -->
+
+
+          <!-- This is section-8 start from here -->
+
+         <div class="content-8" style="background-color: black;"data-aos="fade-down-right">
+           <div class="container abc-5" >
+            <h1>Accomplishments</h1>
+            <div class="row">
+                <div class="col-lg-4 pt-5">
+                    <div class="card">
+                        <div class="d-flex justify-content-center">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/Happy-Clients_Vector-300x300-1.png" alt="">
+                        </div>
+                    </div>
+                    <h1 style="padding-top: 10px;"id="countdown">+</h1>
+                        <h4 class="text-center pb-5">Happy Clients</h4>
+                </div>
+
+                <div class="col-lg-4 pt-5">
+                    <div class="card">
+                        <div class="d-flex justify-content-center ">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/Years_Vector-300x300-1.png" alt="">
+                        </div>
+                    </div>
+                    <h1 style="padding-top: 10px;" id="countdown1">+</h1>
+                        <h4 class="text-center pb-5">Years Experience</h4>
+                </div>
+
+                <div class="col-lg-4 pt-5">
+                    <div class="card">
+                        <div class="d-flex justify-content-center ">
+                    <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/Projects_vector-100x100-1.png" alt="">
+                        </div>
+                    </div>
+                    <h1 style="padding-top: 10px;"id="countdown2">+</h1>
+                        <h4 class="text-center pb-5">Projects</h4>
+                </div>
+           </div>
+           </div>
+           </div>
+
+           <!-- This is section-8 end from here -->
+
+
+           <!-- This is section-9 start from here -->
+
+            <div class="content-9 pt-2" style="background-color:#fff;z-index:2, !important;">
+            <div class="container abc-6">
+                <h2 class="text-black text-center">SEE WHAT OUR CLIENTS THINK ABOUT US</h2>
+                <p class="text-center">.................</p>
+                    <div class="container p-5 text-white" style="background-color: black;">
+                        <span>Working on interiors with Payal, everything is in the realm of possibility. You dream and she implements to near perfection. She has infinite creativity, and can go with the flow of client’s preferences. Very versatile indeed.</span>
+                        
+                    </div>
+                    <div class="container bg-danger" style="height:12vh; position:relative;top:-20px;left: 10px;">
+                    </div>
+                </div>
+
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div class="">
+                    
+                <img src="https://payalkapoor.co.in/wp-content/uploads/2021/02/Bindu-Dalmia-100x100-1.jpeg" alt="" style="border-radius: 100px; margin-right: 20px;">
+
+                </div>
+                <div class="">
+                    <h4>BINDU DALMIA</h4>
+                    <span class="text-danger">AUTHOR</span> 
+                </div>
+            </div>
+        </div>
+
+            <!-- This is section-9 end from here -->
+
+
+            <!-- This is section-10 start from here -->
+
+               <div class="container-fluid py-5" style="background-color:black;">
+                <h6 class=" text-white text-center">LIKE OUR WORK?</h6>
+                <h2 class="text-white text-center pb-5">Leave us a review to spread the good vibes!</h2>
+              
+              <div class="container border border-white" style="padding: 5%;"  data-aos="zoom-in">
+                
+                <input class="form-control mb-3" type="text" placeholder="YOUR NAME*">
+                <input class="form-control mb-3" type="text" placeholder="YOUR EMAIL*">
+                <input class="form-control mb-3" type="text" placeholder="MESSAGE*">
+                <div class="btn btn-dark">SEND MESSAGE</div>
+              </div> 
+              </div>
+
+              <!-- This is section-10 end from here -->
+
+
+               <!-- This is section-11 start from here -->
+
+                 <div class="content-11" style="background-color: rgba(3, 1, 1, 0.86);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4" style="padding-top: 70px;">
+                            <h3 class="text-white">Address</h3>
+                            <div class="row">
+                            <div class="col-lg-1 pt-4">
+                            <span class="fas fa-map-marker-alt text-danger"></span>
+                            </div>
+                            <div class="col-lg-11 pt-3">
+                            <p class="text-white">A-1/140, Safdarjang Enclave, Near NDMA<br>building Trauma centre New Delhi 110029<br>India</p>
+                            </div>
+                            <div class="col-lg-1">
+                            <span class="fas fa-envelope-open text-danger"></span>
+                            </div>
+                            <div class="col-lg-11">
+                            <p  class="text-white">payal.vision@gmail.com</p>
+                            <p  class="text-white">Business Enquiry:91-981-104-7332</p>
+                            <p  class="text-white">Vendors Call Here:011-41704736</p>
+                            <p  class="text-white">+91-981-174-4405</p>
+                            <p  class="text-white">011-4165-0302</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-4" style="padding-top: 100px;">
+                            <div class="row">
+                            <div class="col-lg-1">
+                            <span class="far fa-check-circle text-danger"></span>
+                            </div>
+                            <div class="col-11">
+                            <p  class="text-white">Interior Designer In Delhi For Institutes</p>
+                            </div>
+                            <div class="col-lg-1">
+                            <span class="far fa-check-circle text-danger"></span>
+                            </div>
+                            <div class="col-lg-11">
+                            <p  class="text-white">Interior Designer In Delhi For Showrooms</p>
+                            </div>
+                            <div class="col-lg-1">
+                            <span class="far fa-check-circle text-danger"></span>
+                            </div>
+                            <div class="col-lg-11">
+                            <p  class="text-white">Interior Designer In Delhi For Residences</p>
+                            </div>
+                            <div class="col-lg-1">
+                            <span class="far fa-check-circle text-danger"></span>
+                            </div>
+                            <div class="col-lg-11">
+                            <p  class="text-white">Interior Designer In Delhi For Restaurant & Hotels</p>
+                            </div>
+                            <div class="col-lg-1">
+                            <span class="far fa-check-circle text-danger"></span>
+                            </div>
+                            <div class="col-lg-11">
+                            <p  class="text-white">Interior Designer In Delhi For Salon SPA</p>
+                            </div>
+                            <div class="col-lg-1">
+                            <span class="far fa-check-circle text-danger"></span>
+                            </div>
+                            <div class="col-lg-11">
+                            <p  class="text-white">Interior Designer In Delhi For Office</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <h3 style="padding-top: 70px;" class="text-white">Subscribe</h3>
+                            <div class="input-group border-bottom border-white" style="background: none;">
+                            <input type="text" placeholder="YOUR EMAIL " class="form-control border-0 " style="background: none; color: #fff; outline: none;">
+                            <div class="input-group-text text-white pt-3" style="background: none; border: none;">search</div>
+                            </div>
+                            <span  class="text-white">Follow our newsletter to stay updated about agency.</span>
+                            <div class= "d-flex  align-items-center"> 
+                                <span class="fab fa-facebook   text-black" style="background-color: #fff;width: 30px;height: 30px; border-radius: 100%; display: flex; justify-content: center; align-items: center; margin: 5px;" ></span>
+                                <span class="fab fa-linkedin   text-black"  style="background-color: #fff; width: 30px;height: 30px; border-radius: 100%; display: flex; justify-content: center; align-items: center; margin: 5px;"></span>
+                                <span class="fab fa-instagram  text-black"  style="background-color: #fff;
+                                width: 30px;height: 30px; border-radius: 100%; display: flex; justify-content: center; align-items: center;margin: 5px;"></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+
+                <!-- This is section-11 end from here -->
+
+
+                 <!-- This is section-12 start from here -->
+
+                   <div class="container-fluid" style="background-color: black;">
+                    <p class="text-white text-center">Copyright © 2020 Vision All rights are reserved.Design & Develop by: Digital<span style="color: red;"> Vision </span>Technology Pvt. Ltd. <span style="color: blue;">G</span> <span style="color: red;">o</span><span style="color:yellow">o</span><span style="color: blue;">g</span><span style="color: blue">l</span><span style="color: red;">e</span> Partner</p>
+                  </div>
+
+                  <!-- This is section-12 end from here -->
+
+    
+</body>
+<script>
+    AOS.init();
+  </script>
+  <script>
+    download=()=>{
+          
+          
+          var timeleft =0
+          var countdown =document.getElementById('countdown')
+          let timer = setInterval(function(){
+              timeleft++
+              
+              countdown.innerHTML = timeleft ;
+              if(timeleft>=1945){
+                  clearInterval(timer)
+                
+            }
+
+          },1)
+        }
+        download()
+
+          download=()=>{
+          
+          
+          var timeleft =0
+          var countdown =document.getElementById('countdown')
+          let timer = setInterval(function(){
+              timeleft++
+              
+              countdown.innerHTML = timeleft ;
+              if(timeleft>=2000){
+                  clearInterval(timer)
+                
+            }
+
+          },1)
+        }
+        download()
+
+        download1=()=>{
+          
+          
+          var timeleft1 =0
+          var countdown1 =document.getElementById('countdown1')
+          let timer1 = setInterval(function(){
+              timeleft1++
+              
+              countdown1.innerHTML = timeleft1 ;
+              if(timeleft1>=32){
+                  clearInterval(timer1)
+                
+            }
+
+          },1)
+        }
+        download1()
+
+        download2=()=>{
+          
+          
+          var timeleft2 =0
+          var countdown2 =document.getElementById('countdown2')
+          let timer2 = setInterval(function(){
+              timeleft2++
+              
+              countdown2.innerHTML = timeleft2 ;
+              if(timeleft2>=800){
+                  clearInterval(timer2)
+                
+            }
+
+          },1)
+        }
+        download2()
+
+  </script>
+</html>
